@@ -1,4 +1,5 @@
-# <b>Hands Chart 6max NL<b>
+# <b>Preflop Charts 6max NL<b>
 
-RFI/CALL/3BET<br>
-DEFvs3BET
+RFI/CALLvsOPEN/3BET<br>
+Defending ranges (4B, CC, 5Bet)
+Squeeze
