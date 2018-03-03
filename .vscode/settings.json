@@ -1,0 +1,23 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.formatOnSave": true,
+    "python.linting.pylintArgs": [
+        "--disable=C0111, C0103"
+    ],
+    "jupyter.appendResults": false,
+    "editor.formatOnSave": true,
+    "editor.tabCompletion": true,
+    "workbench.colorTheme": "Monokai",
+    "editor.cursorBlinking": "phase",
+    "code-runner.executorMap": {
+        "python": "python3"
+    },
+    "browserSync.config": {
+        "browser": [
+            "chrome"
+        ],
+        "codeSync": true
+    },
+}

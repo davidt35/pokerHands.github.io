@@ -8,20 +8,23 @@ body {
     background-color: #303030;
 }
 
-.container {
-    height: 100%;
+.grid {
+    display: grid;
+    grid-template-columns: 0.8fr 2fr 2fr 2fr;
+}
+
+img {
     display: block;
-    background-color: #303030;
-    padding-left: 9.5%;
+    margin: auto;
+    margin-bottom: 1%;
+    max-width: 100%;
+    height: auto;
 }
 
 p {
     text-align: center;
     margin: 0;
-    position: relative;
-    position: -2%;
-    top: 50%;
-    transform: translateY(-50%);
+    margin-bottom: 1%;
 }
 
 .range-row1 {
@@ -29,19 +32,13 @@ p {
     border-radius: 10px;
     margin: 0.4%;
     padding: 1%;
-    display: inline-block;
     color: #C3C3C3;
     font-family: Calibri;
-    left: 150px;
 }
 
 .buttons {
-    /*background-color: yellow;*/
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 9%;
-    height: 96.35%;
+    display: grid;
+    grid-template-rows: repeat(1fr, 6);
     margin-top: 0.5%;
 }
 
@@ -49,13 +46,16 @@ p {
     background-color: #424242;
     border-radius: 5px;
     width: 95%;
-    height: 8%;
     margin: 0.4%;
     padding: 1%;
     display: inline-block;
     color: #C3C3C3;
     font-family: Calibri;
     left: 150px;
+}
+
+.pismo-tlacidlo {
+    margin: 15%;
 }
 
 .tlacidlo:hover {
